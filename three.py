@@ -2,7 +2,6 @@
     In this project you will use the classes available
     to create a story of events so that the print
     at the end returns True.
-
 """
 
 def tell_story():
@@ -10,11 +9,17 @@ def tell_story():
     b = Dragon()
     c = Gorilla()
     # Generate  as many other objects as you want
-
-
-
+    d = Beetle() 
+    e = Chipmunk() 
+    f = Snake() 
+    g = Cobra() 
+    h = Goat() 
+    i = Sheep() 
+    j = Donkey() 
+    k = Pig()
 
     # Have objects interact
+    j.eat(b), 
 
 
     # replace the replace_me_object
@@ -107,3 +112,4 @@ class Pig(Animal):
 
 if __name__ == "__main__":
     print(tell_story()=="Sphinx of black quartz, judge my vow!")
+    print(tell_story())
